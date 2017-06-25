@@ -1,12 +1,12 @@
-# Portfolio
+# Ping Pong
 
-#### First Java/JS project using HTML, CSS and Bootstrap for Epicodus, O6.10.2017
+#### First Java/JS project using HTML, CSS and Bootstrap for Epicodus, O6.25.2017
 
 #### By _**{List of contributors}**_
 
 ## Description
 
-This website has an index page with vacation information and options.  I've used Javascript and JS on the backend, when clicking on the "Lets Go Vacation" the user will have various vacation choices appear with links to information.
+This website has an index page with a description on the ping pong game.  I've used Javascript and JS on the backend, when clicking on the "Submit" the user will end a number.  The number enter will add 1 or if the number can be divided by 3 or 5 the return value will show a string with ping, pong or pingpong.
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ This website has an index page with vacation information and options.  I've used
 
 ## Known Bugs
 
-I have had some difficulty with my coding, I have tried to simplify the code in order to make it work and I'm not getting the results I wish to have for the users experience. I am not able to color the entire background, I have tried moving my containers but that created a mess.
+I have had some difficulty with my coding, I have tried to simplify the code in order to make it work and I'm not getting the results I wish to have for the users experience. On Chrome my website is missing elements that are nice on Safari.  My code is not executing because I'm not doing it correctly.  When I use the console some of my code works but with the HTML it's definitely not working.  I've spent hours reviewing and looking at tutorials but I'm missing some logic somewhere.  I understand the video lessons we have in class but not all the exercises make sense.  Branching was easy but this assignment I'm lost. I submitted the assignment without working and I will fix it once I have a better understanding of my errors.
 
 ## Support and contact details
 
@@ -23,7 +23,7 @@ Should you have any problems feel free to contact me with questions, ideas or co
 
 ## Technologies Used
 
-This project uses HTML, CSS and Bootstrap with some elements copied from Bootstrap on W3 Schools website.  Most of my references were from Google and W3 Schools. This also used Java and JS Query my references include Epicodus, previous projects and Mozilla Developer.
+This project uses HTML, CSS and Bootstrap with some elements copied from Bootstrap on W3 Schools website.  Most of my references were from Google and W3 Schools. This also used Java and JS Query my references include Google, Epicodus, Treehouse, YouTube, previous projects and Mozilla Developer.
 
 ### License
 

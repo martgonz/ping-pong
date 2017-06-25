@@ -1,13 +1,22 @@
 $("document").ready(function() {
   $("form#count").submit(function(event) {
     event.preventDefault();
-
-    var number = 0;
-    var count = $("input#number").val();
-    alert("hello");
-    console.log (0);
-    var result = $("input#count").val
-
-    $("#output").text("ping");
+    var count = parseInt($("input#count").val());
+    var result = newNumber(count);
+    $("#output").show();
+  }
+  var newNumber = parseInt($("input#count").val());
+  //console.log (newNumber);
+  var submit = newNumber(count = ++1);
+  $("count" = % 3).parseInt();
+  return parseInt()
+  $("#output").show(ping);
+  if $("count" = % 5).parseInt();
+  return parseInt()
+  $("#output").show(pong);
+} else {
+  var newNumber = function(count) {
+    if ((count % 3 === 0) && (count % 5 === 0) {
+      return.prompt("pingpong");
+    });
   });
-});

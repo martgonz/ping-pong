@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text"/css/>
-  <link href="css/stylesheet.css" rel="stylesheet" type="text"/css/>
+  <title>Ping Pong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
   <script scr="js/query-3.2.1.js"></script>
   <script scr="js/scripts.js"></script>
-  <title>Ping Pong</title>
+
 </head>
 <body>
   <div class="jumbotron">
@@ -15,8 +17,7 @@
     <p>Ping-Pong (aka table tennis) is played by some 300 million people worldwide, according to the International Table Tennis Federation (ITTF), making it one of Earth's most popular sports. It has been an Olympic sport since 1988.
       Alzheimerz weekly reports a clear increase in motor skills and cognitive awareness from playing table tennis. Playing improves hand-eye coordination and it stimulates mental alertness, concentration and tactical strategy. This ping pong game is developed
       to provide brain stimulation for entry coding at Epicodus.</p>
-
-    </div>
+  </div>
 
     <div class="container">
       <div class="row">
@@ -27,13 +28,16 @@
             <li>Numbers divisible by 3 become "ping"</li>
             <li>Numbers divisible by 5 become "pong"</li>
             <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-
+          </ul>
             <form id="count">
               <div class="form-group">
                 <label for="number">Enter a number:</label>
-                <input id="number" type="text">
+                <input id="newNumber" type="result">
+              </div>
+              <div>
                 <button type="submit" class= "btn btn-primary">Submit</button>
               </div>
+            </form>
               <div id="output">
               </div>
               <img src="img/kitten_pingpong.jpg" alt="kittens playing ping pong">
