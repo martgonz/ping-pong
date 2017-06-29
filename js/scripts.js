@@ -21,3 +21,22 @@ $(document).ready(function() {
     });
 
 ///Jonathan made a change!
+
+//Let's make a function that takes a number as an argument and appends to a spot on a page
+
+function countPingPong(number){
+  for(var i = 0; i<=number; i++){
+    var countToNumber;
+    
+    if(i === 3) {
+     countToNumber = "yo"
+    } else {
+     countToNumber = i
+    }  
+    
+    console.log(countToNumber);
+  }
+
+
+}
+
